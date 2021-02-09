@@ -14,5 +14,6 @@ let firstProb : Array<string> = [
 ]
 
 let b : SudokuBoard = new SudokuBoard(read_sudoku_problem(firstProb))
-
+console.log("Test #1 : Valid Board");
+b.pretty_print();
 console.log(b.is_valid());
